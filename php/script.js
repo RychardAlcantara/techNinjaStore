@@ -2,6 +2,11 @@ const products = [
     { id: 1, name: "Smartphone", price: 500.00 },
     { id: 2, name: "Laptop", price: 1000.00 },
     { id: 3, name: "Tablet", price: 300.00 },
+    { id: 3, name: "Tablet", price: 300.00 },
+    { id: 3, name: "Tablet", price: 300.00 },
+    { id: 3, name: "Tablet", price: 300.00 },
+    { id: 3, name: "Tablet", price: 300.00 },
+    { id: 3, name: "Tablet", price: 300.00 },
 ];
 
 const cart = [];

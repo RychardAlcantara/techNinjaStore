@@ -1,4 +1,7 @@
+<?php
+include('conexao.php');
 
+?>
 
 
 <html>
@@ -21,21 +24,14 @@
         </div>
     </header>
     <main>
+      <div class="cards">
         <section class="products">
-            <!-- Produtos aparecerão aqui -->
+              <!-- Produtos aparecerão aqui -->
         </section>
+      </div>
+        
     </main>
     <script src="script.js"></script>
-    <?php 
-      $connection = @mysqli_connect("db-server:3306", "root", "password");
-      
-      if (!$connection) {
-        echo "Unable to connect to MySQL:<br/>" . mysqli_connect_error();
-      } else {
-        echo "Connect to MySQL successful!";
-      }
-
-      exit;
-    ?>
+   
 </body>
 </html>
