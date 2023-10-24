@@ -8,15 +8,13 @@ header {
     background-color: #004AAD;
     color: #fff;
     padding: 20px 0;
-    display: flex;
     justify-content: space-between; /* Alinha os ícones no canto direito */
     align-items: center;
 }
 
 .img1 {
-  position: fixed;
   width: 10%;
-  padding: 10px;
+  padding: 50px;
 }
 
 .icons {
@@ -65,7 +63,7 @@ form.example input[type=text] {
   
   .produtos-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Duas colunas por linha */
+    grid-template-columns: repeat(4, 1fr);  /*Duas colunas por linha */
     gap: 20px; /* Espaço entre os produtos */
     margin: 20px;
 }
@@ -118,6 +116,63 @@ form.example input[type=text] {
 
 .cart {
   position: relative;
+}
+
+footer {
+  background-color: #004AAD;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-image: url('seu-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+  margin-top: 30px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.banner a {
+  display: inline-block;
+  background-color: #004AAD;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.banner a:hover {
+  background-color: #003799;
 }
 
 
