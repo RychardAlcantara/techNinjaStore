@@ -2,10 +2,10 @@
 
 $host = "sql10.freemysqlhosting.net";
 $username = "sql10655599";
-$password = "8FUxMuGI7c";
-
+$password = "8FUxMuGI7c"; 
+$databaseName = "sql10655599";
 try {
-    $db = new PDO("mysql:host=$host", $username, $password);
+    $db = new PDO("mysql:host=$host;dbname=$databaseName", $username, $password);
     // Habilitar erros PDO
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
